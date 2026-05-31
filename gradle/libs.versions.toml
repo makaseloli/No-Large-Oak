@@ -7,7 +7,6 @@ slf4j-api = "1.8.0-beta4"
 jspecify = "1.0.0"
 
 [libraries]
-fabric-api = { module = "net.fabricmc.fabric-api:fabric-api" }
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
 fabric-loom = { module = "net.fabricmc:fabric-loom", version.ref = "fabric-loom" }
 forge-config-api-port-common = { module = "fuzs.forgeconfigapiport:forgeconfigapiport-common" }

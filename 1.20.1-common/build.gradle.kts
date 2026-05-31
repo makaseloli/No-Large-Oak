@@ -1,4 +1,7 @@
 plugins {
     id("legacyforge-common-conventions")
-    id("legacyforge-common-config-conventions")
+}
+
+dependencies {
+    compileOnly("${libs.mixin.get().module}:${libs.versions.mixin.get()}")
 }

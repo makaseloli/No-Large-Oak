@@ -1,4 +1,7 @@
 plugins {
     id("neoforge-common-conventions")
-    id("neoforge-common-config-conventions")
+}
+
+dependencies {
+    compileOnly("${libs.mixin.get().module}:${libs.versions.mixin.get()}")
 }
