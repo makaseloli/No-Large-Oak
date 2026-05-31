@@ -4,7 +4,7 @@
   "package": "io.github.makaseloli.nolargeoak.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "TreeGrowerMixin"
+    "TreeFeatureMixin"
   ],
   "client": [],
   "server": [],
